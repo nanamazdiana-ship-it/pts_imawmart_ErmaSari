@@ -1,10 +1,8 @@
-# Catatan Penggunaan AI (AI Usage Log)
-
-| Tanggal | AI/Tool | Tujuan | Prompt / Ringkasan | Bagian Digunakan | Verifikasi / Modifikasi |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 14 Oktober 2026 | Gemini AI | Brainstorming & Pemilihan Tema | Memilih ide dan konsep nama aplikasi orisinal "imawmart" berdasarkan varian dataset Products. | Konsep & Perencanaan Project | Disesuaikan dengan struktur folder dan identitas personal. |
-| 14 Oktober 2026 | Gemini AI | Perancangan Struktur HTML & CSS | Meminta contoh kerangka markup HTML5 yang baik beserta styling CSS responsive (Flexbox/Grid). | Struktur Layout & Styling | Dimodifikasi tata letak dan warnanya agar sesuai selera pribadi. |
-| 15 Oktober 2026 | Gemini AI | Logika Fetch REST API | Memahami cara mengambil data dari endpoint DummyJSON menggunakan `async/await` dan `fetch()`. | Script JavaScript (Fetch API) | Disesuaikan dengan endpoint produk dan fungsi perender ke DOM. |
-| 15 Oktober 2026 | Gemini AI | Implementasi Fitur Interaktif & Form | Meminta bantuan logika JavaScript untuk fitur pencarian/filter serta validasi form client-side | Logika Interaktif & Validasi | Disesuaikan dengan aturan validasi dan elemen input pada form web. |
-| 16 Oktober 2026 | Gemini AI | Penyusunan README & Code Explanation | Menyusun draf jawaban untuk 10 pertanyaan penjelasan kode (*code explanation*). | Dokumentasi README.md | Diperiksa kembali agar sesuai dengan baris kode asli di project. |
-| 16 Oktober 2026 | Gemini AI | Manajemen Git & Troubleshooting | Membantu mengatasi kendala *conflict* pada Git, *merge*, serta strategi *commit* bertahap. | Git Version Control | Diterapkan langsung di terminal untuk merapikan riwayat commit. |
+| Tanggal | AI / Tool | Tujuan | Prompt / Ringkasan | Bagian yang Digunakan | Verifikasi / Modifikasi |
+|---|---|---|---|---|---|
+| 14 Okt 2026 | Claude (Anthropic) | Membaca soal PTS dan menentukan varian | Meminta membaca soal dari Drive dan menghitung varian berdasarkan NIM | Tabel varian pada bagian 3 | Saya hitung ulang sendiri: X=0, Y=0, Z=5, S=5, C=5 mod 4=1 |
+| 14 Okt 2026 | Claude (Anthropic) | Draf awal kode project | Meminta dibuatkan project sesuai varian (Products, search + sort, nama min. 5, retry) | `index.html`, `css/style.css`, `js/*.js` | Saya jalankan di Laragon (localhost/pemweb-PTS) dan memeriksa fetch lewat tab Network |
+| 14 Okt 2026 | Claude (Anthropic) | Revisi tema | Meminta ganti nama jadi imawmart, palet pink, dan menampilkan semua produk API | Palet warna, penghapusan filter kategori | Saya uji di browser dan memilih sendiri nama imawmart serta tampilan semua kategori |
+| 14 Okt 2026 | Claude (Anthropic) | Draf README dan jawaban pertanyaan | Meminta draf jawaban 10 pertanyaan dari kode | Bagian 9 README | Saya baca dan sesuaikan dengan kode, nomor 9 saya tulis dari pengalaman sendiri |
+| 16 Okt 2026 | Claude (Anthropic) | Revisi tata letak | Meminta menu di sidebar kiri, logo di tengah, dan nama ditulis langsung di HTML | `index.html`, `css/style.css`, `js/app.js` | Saya cek di lebar desktop, tablet, dan HP, lalu mengganti nama dan identitas sendiri |
+| 16 Okt 2026 | Claude (Anthropic) | Naskah video demo | Meminta naskah dan alur rekaman | Naskah video (di luar kode) | Saya baca dan sesuaikan dengan kata-kata sendiri |

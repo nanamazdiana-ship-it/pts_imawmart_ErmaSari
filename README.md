@@ -2,7 +2,7 @@
 
 - **Nama Mahasiswa:** [Isi Nama Lengkap Kamu]
 - **NPM:** 2440304005
-- **Nama Aplikasi:** imawMart
+- **Nama Aplikasi:** imawmart
 
 
 ---
